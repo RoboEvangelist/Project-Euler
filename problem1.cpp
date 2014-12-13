@@ -8,6 +8,6 @@ main()
             sum += i;
     }
 
-    std::cout << std::endl <<"the sum is: " << sum << std::endl << std::endl;
+    std::cout << std::endl << "the sum is: " << sum << std::endl << std::endl;
 }
                 
