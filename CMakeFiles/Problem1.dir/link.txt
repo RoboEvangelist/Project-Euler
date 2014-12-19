@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/Problem1.dir/problem1.cpp.o  -o Problem1 -rdynamic 
