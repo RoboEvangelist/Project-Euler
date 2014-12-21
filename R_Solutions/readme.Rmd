@@ -24,7 +24,7 @@ more familiar to many, it is always great to explore and expand.
 computations. Thus, it has numerous built-in functions which we would have to 
 write ourselves or at least import from some libraries if we use other languages.
 
-3. [\$ \$ \$](http://economictimes.indiatimes.com/magazines/panache/these-are-the-highest-paying-programming-languages-you-should-learn-ranked-by-salary/articleshow/45258811.cms)
+3. [Good pay](http://economictimes.indiatimes.com/magazines/panache/these-are-the-highest-paying-programming-languages-you-should-learn-ranked-by-salary/articleshow/45258811.cms)
 
 
 
