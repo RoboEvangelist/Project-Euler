@@ -31,7 +31,7 @@ write ourselves or at least import from some libraries if we use other languages
 The codes are embedded in the markdown file. To run the scripts, copy and paste 
 the codes in the boxes like this one
 
-```{r, results='hold'}
+```{r, results='hide'}
 x <- 1
 y <- 2
 z <- x+y
