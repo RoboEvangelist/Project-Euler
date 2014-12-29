@@ -1,4 +1,4 @@
-# Install script for directory: /home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler
+# Install script for directory: /home/pototo/ProjectEuler/C++_solutions
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/pototo/ProjectEuler/C++_solutions/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/pototo/ProjectEuler/C++_solutions/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

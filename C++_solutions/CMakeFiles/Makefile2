@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler
+CMAKE_SOURCE_DIR = /home/pototo/ProjectEuler/C++_solutions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler
+CMAKE_BINARY_DIR = /home/pototo/ProjectEuler/C++_solutions
 
 #=============================================================================
 # Target rules for target CMakeFiles/Problem1.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/pototo/Documents/Dropbox/Public/Programming/ProjectEule
 CMakeFiles/Problem1.dir/all:
 	$(MAKE) -f CMakeFiles/Problem1.dir/build.make CMakeFiles/Problem1.dir/depend
 	$(MAKE) -f CMakeFiles/Problem1.dir/build.make CMakeFiles/Problem1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pototo/ProjectEuler/C++_solutions/CMakeFiles  1
 	@echo "Built target Problem1"
 .PHONY : CMakeFiles/Problem1.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/Problem1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Problem1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pototo/ProjectEuler/C++_solutions/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Problem1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pototo/Documents/Dropbox/Public/Programming/ProjectEuler/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pototo/ProjectEuler/C++_solutions/CMakeFiles 0
 .PHONY : CMakeFiles/Problem1.dir/rule
 
 # Convenience name for target.
@@ -85,6 +85,41 @@ CMakeFiles/Problem1.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Problem1.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Problem2.dir
+
+# All Build rule for target.
+CMakeFiles/Problem2.dir/all:
+	$(MAKE) -f CMakeFiles/Problem2.dir/build.make CMakeFiles/Problem2.dir/depend
+	$(MAKE) -f CMakeFiles/Problem2.dir/build.make CMakeFiles/Problem2.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pototo/ProjectEuler/C++_solutions/CMakeFiles  2
+	@echo "Built target Problem2"
+.PHONY : CMakeFiles/Problem2.dir/all
+
+# Include target in all.
+all: CMakeFiles/Problem2.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Problem2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pototo/ProjectEuler/C++_solutions/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Problem2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pototo/ProjectEuler/C++_solutions/CMakeFiles 0
+.PHONY : CMakeFiles/Problem2.dir/rule
+
+# Convenience name for target.
+Problem2: CMakeFiles/Problem2.dir/rule
+.PHONY : Problem2
+
+# clean rule for target.
+CMakeFiles/Problem2.dir/clean:
+	$(MAKE) -f CMakeFiles/Problem2.dir/build.make CMakeFiles/Problem2.dir/clean
+.PHONY : CMakeFiles/Problem2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Problem2.dir/clean
 .PHONY : clean
 
 #=============================================================================
