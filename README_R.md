@@ -29,7 +29,7 @@ write ourselves or at least import from some libraries if we use other languages
 3. [Good pay!](http://economictimes.indiatimes.com/magazines/panache/these-are-the-highest-paying-programming-languages-you-should-learn-ranked-by-salary/articleshow/45258811.cms)
 
 #### How to View?
-Open the index page in the R_Solutions directory and then click on the link 
+Open the [index page](https://github.com/RoboEvangelist/Project-Euler/blob/master/R_Solutions/index.md) in the R_Solutions directory and then click on the link 
 of interest.
 
 
