@@ -28,11 +28,14 @@ write ourselves or at least import from some libraries if we use other languages
 
 3. [Good pay!](http://economictimes.indiatimes.com/magazines/panache/these-are-the-highest-paying-programming-languages-you-should-learn-ranked-by-salary/articleshow/45258811.cms)
 
+#### How to View?
+Open the index page in the R_Solutions directory and then click on the link 
+of interest.
 
 
 #### [How to Run?](http://cdnpix.com/show/imgs/4ed2237e77c5a57da0c5401f8cc549d1.jpg)
 
-The codes are embedded in the markdown file. To run the scripts, copy and paste 
+The codes are embedded in the webpage. To run the scripts, copy and paste 
 the codes in the boxes like this one
 
 
