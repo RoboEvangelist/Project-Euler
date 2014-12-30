@@ -8,7 +8,7 @@ combined lists.
 
 For example, we want to find all the multiples of 3 or 5 below 37, we first list
 the multiples of 3 that are below 37 which are
-$$ 3,6,9,12,\underline{15},18,21,24,27,\underline{30},33,36 $$
+$$3,6,9,12,\underline{15},18,21,24,27,\underline{30},33,36$$
 and the multiples of 5 that are below 37 which are
 $$ 5,10,\underline{15},20,25,\underline{30},35, $$
 and then combine the two sets above, with the repeated numbers included only once.
