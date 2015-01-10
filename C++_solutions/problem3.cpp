@@ -8,7 +8,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 #include <iostream>
 
-int divide_factor(int number_and_factor[]);
+int divide_factor(long number_and_factor[]);
 // Precondition: gets the number of interest, and the largest factor
 // Postcondition: returns the number of interes, and the new largest factor
 
@@ -16,17 +16,18 @@ int main(){
 
     // {number, factor}
     long number_and_factor[] = {600851475143, 2};
-    std::cout << std::endl << "sum of even terms under four million: "
-              << std::endl << std::endl; 
+    divide_factor(number_and_factor);
 }
                 
-//int fibonacci(int n){
+int divide_factor(long number_and_factor[]){
+    std::cout << std::endl << "sum of even terms under four million: "
+              << number_and_factor[0] << std::endl << std::endl; 
 //    if(n==1) 
 //        return(1);
 //    if(n==2) 
 //        return(2);
 //    return (fibonacci(n-1)+fibonacci(n-2));       // For n > 2
-//}
+}
 //
 //int sumEvenFibonacci(int m){
 //    int sumEvenTerms = 0;         // sum of even numbers in sequence 
