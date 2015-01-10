@@ -7,6 +7,7 @@ What is the largest prime factor of the number 600851475143 ?
 */
 
 #include <iostream>
+#include <math.h>
 
 long divide_factor(long data[]);
 // Precondition: Input is number of interest, and the largest factor
@@ -32,7 +33,10 @@ long divide_factor(long data[]){
             divide_factor(data);    // keep dividing till mod != 0
         }
         else{
-            ++data[1];
+            if (data[1] == 2)
+                ++data[1];
+            else
+                data[1] = data[1] + 2;
             divide_factor(data);
         }
     }
