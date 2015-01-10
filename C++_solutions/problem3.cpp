@@ -8,24 +8,33 @@ What is the largest prime factor of the number 600851475143 ?
 
 #include <iostream>
 
-long divide_factor(long number_and_factor[]);
+long divide_factor(long data[]);
 // Precondition: gets the number of interest, and the largest factor
-// Postcondition: returns the number of interes, and the new largest factor
+// Postcondition: new largest factor
 
 int main(){
 
-    // {number of interest, maximum factor}
-    long number_and_factor[] = {600851475143, 2};
-    std::cout << std::endl << "the maximum prime factor is of " 
-              << number_and_factor[0]
-              << " is: " << divide_factor(number_and_factor) 
+    // starting from 2 guarantees we always get prime factors only
+    // and forces the program to "automatically check" if the
+    // current factor can divide the number
+    long data[] = {600851475143, 2};  // {number of interest, 
+                                      //  maximum factor}
+    std::cout << std::endl << "the maximum prime factor of " 
+              << data[0];
+    std::cout << " is: " << divide_factor(data) 
               << std::endl << std::endl; 
 }
                 
-long divide_factor(long number_and_factor[]){
-//    if(n==1) 
-//        return(1);
-//    if(n==2) 
-//        return(2);
-    return(number_and_factor[1]);       // For n > 2
+long divide_factor(long data[]){
+    if (data[1] <= data[0]){         // make sure we don't pass number
+        if (data[0]%data[1] == 0){  // if still divisible by factor
+            data[0] = data[0] / data[1];
+            divide_factor(data);
+        }
+        else{
+            ++data[1];
+            divide_factor(data);
+        }
+    }
+    return(data[1]);                // return max prime number
 }
