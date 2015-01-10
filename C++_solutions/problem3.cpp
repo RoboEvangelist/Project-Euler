@@ -33,6 +33,11 @@ long divide_factor(long data[]){
             divide_factor(data);    // keep dividing till mod != 0
         }
         else{
+            // after divisions by two have been maxed out,
+            // every other division from there on will be done
+            // by numbers that are not divisible by 2. So it's
+            // safe to assume we can just increase to factor + 2
+            // in order to skip any number that has 2 as factor
             if (data[1] == 2)
                 ++data[1];
             else
