@@ -9,8 +9,8 @@ What is the largest prime factor of the number 600851475143 ?
 #include <iostream>
 
 long divide_factor(long data[]);
-// Precondition: gets the number of interest, and the largest factor
-// Postcondition: new largest factor
+// Precondition: Input is number of interest, and the largest factor
+// Postcondition: Returns new largest factor
 
 int main(){
 
@@ -26,10 +26,10 @@ int main(){
 }
                 
 long divide_factor(long data[]){
-    if (data[1] <= data[0]){         // make sure we don't pass number
+    if (data[1] <= data[0]){        // make sure we don't pass number
         if (data[0]%data[1] == 0){  // if still divisible by factor
             data[0] = data[0] / data[1];
-            divide_factor(data);
+            divide_factor(data);    // keep dividing till mod != 0
         }
         else{
             ++data[1];
