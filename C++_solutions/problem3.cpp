@@ -8,9 +8,9 @@ What is the largest prime factor of the number 600851475143 ?
 
 #include <iostream>
 
-int divide_factor(int n);
-// Precondition: input is the position value of nth number in sequence
-// Postcondition: returns nth number in the sequence
+int divide_factor(int number_and_factor[]);
+// Precondition: gets the number of interest, and the largest factor
+// Postcondition: returns the number of interes, and the new largest factor
 
 int main(){
 
