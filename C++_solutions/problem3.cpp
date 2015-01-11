@@ -30,7 +30,6 @@ long divide_factor(long data[]){
     if (data[1] <= data[0]){        // make sure we don't pass number
         if (data[0]%data[1] == 0){  // if still divisible by factor
             data[0] = data[0] / data[1];
-            divide_factor(data);    // keep dividing till mod != 0
         }
         else{
             // after divisions by two have been maxed out,
@@ -42,8 +41,8 @@ long divide_factor(long data[]){
                 ++data[1];
             else
                 data[1] = data[1] + 2;
-            divide_factor(data);
         }
+        divide_factor(data);    // keep dividing till mod != 0
     }
     return(data[1]);                // return max prime number
 }
