@@ -124,6 +124,19 @@ Problem2/fast:
 	$(MAKE) -f CMakeFiles/Problem2.dir/build.make CMakeFiles/Problem2.dir/build
 .PHONY : Problem2/fast
 
+#=============================================================================
+# Target rules for targets named Problem3
+
+# Build rule for target.
+Problem3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Problem3
+.PHONY : Problem3
+
+# fast build rule for target.
+Problem3/fast:
+	$(MAKE) -f CMakeFiles/Problem3.dir/build.make CMakeFiles/Problem3.dir/build
+.PHONY : Problem3/fast
+
 problem1.o: problem1.cpp.o
 .PHONY : problem1.o
 
@@ -172,6 +185,30 @@ problem2.cpp.s:
 	$(MAKE) -f CMakeFiles/Problem2.dir/build.make CMakeFiles/Problem2.dir/problem2.cpp.s
 .PHONY : problem2.cpp.s
 
+problem3.o: problem3.cpp.o
+.PHONY : problem3.o
+
+# target to build an object file
+problem3.cpp.o:
+	$(MAKE) -f CMakeFiles/Problem3.dir/build.make CMakeFiles/Problem3.dir/problem3.cpp.o
+.PHONY : problem3.cpp.o
+
+problem3.i: problem3.cpp.i
+.PHONY : problem3.i
+
+# target to preprocess a source file
+problem3.cpp.i:
+	$(MAKE) -f CMakeFiles/Problem3.dir/build.make CMakeFiles/Problem3.dir/problem3.cpp.i
+.PHONY : problem3.cpp.i
+
+problem3.s: problem3.cpp.s
+.PHONY : problem3.s
+
+# target to generate assembly for a file
+problem3.cpp.s:
+	$(MAKE) -f CMakeFiles/Problem3.dir/build.make CMakeFiles/Problem3.dir/problem3.cpp.s
+.PHONY : problem3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -180,6 +217,7 @@ help:
 	@echo "... depend"
 	@echo "... Problem1"
 	@echo "... Problem2"
+	@echo "... Problem3"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... problem1.o"
@@ -188,6 +226,9 @@ help:
 	@echo "... problem2.o"
 	@echo "... problem2.i"
 	@echo "... problem2.s"
+	@echo "... problem3.o"
+	@echo "... problem3.i"
+	@echo "... problem3.s"
 .PHONY : help
 
 
