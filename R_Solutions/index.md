@@ -8,4 +8,4 @@ Project Euler Problems:
 
 Tools:
 
-1. [A Building Tool - Prime Factorization](http://htmlpreview.github.com/?://github.com/RoboEvangelist/Project-Euler/commit/25fb3687162c727f257066445552f6259661ea30)
+1. [A Building Tool - Prime Factorization](http://htmlpreview.github.com/?https://github.com/RoboEvangelist/Project-Euler/blob/master/R_Solutions/Best_Tool.html)
