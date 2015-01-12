@@ -348,6 +348,46 @@ primeFactorize &lt;- function(x){
 }
 </code></pre>
 
+<p>Examples:</p>
+
+<pre><code class="r">primeFactorize(39)
+</code></pre>
+
+<pre><code>##   Prime Factor Power
+## 1            3     1
+## 2           13     1
+</code></pre>
+
+<pre><code class="r">primeFactorize(18)
+</code></pre>
+
+<pre><code>##   Prime Factor Power
+## 1            2     1
+## 2            3     2
+</code></pre>
+
+<pre><code class="r">primeFactorize(4321)
+</code></pre>
+
+<pre><code>##   Prime Factor Power
+## 1           29     1
+## 2          149     1
+</code></pre>
+
+<pre><code class="r">primeFactorize(402859) # Prime number
+</code></pre>
+
+<pre><code>## [1] 402859
+</code></pre>
+
+<pre><code class="r">primeFactorize(12345678901)
+</code></pre>
+
+<pre><code>##   Prime Factor Power
+## 1          857     1
+## 2     14405693     1
+</code></pre>
+
 <p>We have built a prime factorization function! Prime factorization is a very 
 powerful tool in solving mnumerous math problems per se. However, there is more!
 Soon, we will use the prime factorization function to build another two useful 
